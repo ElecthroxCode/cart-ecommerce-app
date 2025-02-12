@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  autor = 'By Emmanuel Silano - exercise 8'
 }

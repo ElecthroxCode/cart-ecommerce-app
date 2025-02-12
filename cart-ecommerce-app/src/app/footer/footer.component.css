@@ -1,0 +1,7 @@
+footer{
+    height: 200px;
+    background-color: #41411c;
+    color: #ffacf3;
+    display: grid;
+    place-content: center;
+}
