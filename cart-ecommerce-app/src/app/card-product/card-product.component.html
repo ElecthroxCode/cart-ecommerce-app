@@ -1,0 +1,20 @@
+@if (product) {
+    <div class="card">
+       <div class="card-top">
+        <img [src]="product.image" alt="Imagen de {{product.title}}" 
+        [style.width]="'190px'"
+       
+        >
+        <div class="card-content">
+            <h3 class="card-title">{{product.title}}</h3>
+           
+        </div>
+       </div>
+      <div class="card-down">
+        <div class="price">
+            <span>$ {{product.price}}</span>
+        </div>
+        <button type="button" (click)="addToCart()" >Add to cart</button>
+      </div>
+    </div>
+}

@@ -1,0 +1,10 @@
+<app-header></app-header>
+<div class="main"
+[style.padding]="'10px 60px'"
+[style.background-color]="'#fffbea'"
+>
+@for (product of products; track product.id) {
+    <app-card-product [product]="product"></app-card-product>
+}
+</div>
+
