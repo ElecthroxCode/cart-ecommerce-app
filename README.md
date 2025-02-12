@@ -1,6 +1,6 @@
 # Badge Cart App 
 
-![Imagen del proyecto][public/img/cart_ecommerce.jpg]
+![Imagen del proyecto](public/img/cart_ecommerce.jpg)
 
 ## Descripción
 
